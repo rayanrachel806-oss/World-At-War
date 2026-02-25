@@ -457,9 +457,8 @@
                         <h4>📖 GAMEPLAY RULES</h4>
                         <ol>
                             <li>Each player is randomly assigned a country along 3 bits, which becomes their Core territory.</li>
-                            <li>All players expand simultaneously until every territory is occupied, with the exception of the Falklands.</li>
-                            <li>Once expansion is complete, the round-based gameplay begins.</li>
-                            <li>Each round consists of two phases: an Attack phase followed by a Maneuvering phase, where troops can be purchased.</li>
+                                                        <li>Expand or fight </li>
+
                             <li>For troops with more than 1 life if it survives a battle, each live is gained after one round</li>
                             <li>The game continues until either all Core territories are conquered, or the game reaches a draw. The winner is the player with the highest income, not the most money.</li>
                         </ol>
@@ -700,11 +699,9 @@
             
             // NORTH AMERICA
             {index: "007", name: "North-West territory", x: 300, y: 1550},
-            {index: "008", name: "Alaska", x: 150, y: 1500},
             {index: "009", name: "Canada", x: 450, y: 1200},
             {index: "010", name: "Ontario", x: 650, y: 1350},
             {index: "011", name: "Quebec", x: 850, y: 1300},
-            {index: "012", name: "Western US", x: 400, y: 950},
             {index: "013", name: "Central United States", x: 600, y: 1000},
             {index: "014", name: "Eastern US", x: 750, y: 1000},
             {index: "015", name: "Mexico", x: 600, y: 900},
@@ -713,14 +710,11 @@
             {index: "018", name: "E.Cuba", x: 780, y: 860},
             
             // SOUTH AMERICA
-            {index: "019", name: "Venezuela", x: 620, y: 780},
             {index: "020", name: "Colombia", x: 700, y: 720},
             {index: "021", name: "Peru", x: 500, y: 600},
             {index: "022", name: "Brazil", x: 850, y: 600},
             {index: "023", name: "Chile", x: 650, y: 420},
             {index: "024", name: "Argentina", x: 750, y: 350},
-            {index: "025", name: "W.Falklands", x: 850, y: 250},
-            {index: "026", name: "E.Falklands", x: 900, y: 220},
             
             // EUROPE
             {index: "027", name: "Spain", x: 1100, y: 1100},
@@ -760,38 +754,26 @@
             {index: "057", name: "Zimbabwe", x: 1350, y: 500},
             {index: "058", name: "Botswana", x: 1300, y: 450},
             {index: "059", name: "South Africa", x: 1250, y: 350},
-            {index: "060", name: "N.Madagascar", x: 1600, y: 500},
             {index: "061", name: "S.Madagascar", x: 1550, y: 450},
             
             // MIDDLE EAST & ASIA
             {index: "062", name: "Syria", x: 1450, y: 1000},
             {index: "063", name: "Iran", x: 1550, y: 950},
-            {index: "064", name: "Saudi Arabia", x: 1450, y: 900},
-            {index: "065", name: "Yemen", x: 1450, y: 850},
+
             {index: "066", name: "Oman", x: 1550, y: 880},
             {index: "067", name: "Afghanistan", x: 1600, y: 1000},
             {index: "068", name: "India", x: 1550, y: 850},
             {index: "069", name: "Mongolia", x: 1600, y: 1050},
             {index: "070", name: "China", x: 1700, y: 950},
             {index: "071", name: "West-Manchuria", x: 1800, y: 1100},
-            {index: "072", name: "East-Manchuria", x: 1850, y: 1050},
             
             // SOUTHEAST ASIA
             {index: "073", name: "SouthEast Asia", x: 1700, y: 850},
-            {index: "074", name: "W.Indonesia", x: 1800, y: 700},
-            {index: "075", name: "E.Indonesia", x: 1900, y: 650},
-            {index: "076", name: "S.Indonesia", x: 1850, y: 600},
             
             // JAPAN
             {index: "077", name: "N.Japan", x: 1900, y: 950},
-            {index: "078", name: "Central Japan", x: 1950, y: 900},
-            {index: "079", name: "S.Japan", x: 1900, y: 850},
             
             // AUSTRALIA
-            {index: "080", name: "W.Australia", x: 1750, y: 450},
-            {index: "081", name: "E.Australia", x: 1900, y: 450},
-            {index: "082", name: "S.Australia", x: 1850, y: 380},
-            {index: "083", name: "Isle.Australia", x: 1800, y: 300}
         ];
 
         const MIN_DISTANCE = 600;
